@@ -304,11 +304,11 @@ html, body{
 
 .nouvelles-item{
     position: relative;
-    width: 350px;
-    height: 600px;
+    width: 300px;
+    height: 550px;
     background-color: #fff;
-    margin: 40px auto;
-    padding: 0;
+    margin: 40px 15px;
+    padding: 10px;
     box-shadow: 2px 2px 2px #000120;
 }
 
@@ -317,14 +317,14 @@ html, body{
 }
 
 .nouvelles-item > img{
-    max-width: 300px; 
-    max-height: 350px; 
+    max-width: 250px; 
+    max-height: 300px; 
     margin: 40px auto;
 }
 
 .nouvelles-item > img:hover{
-    max-width: 320px;
-    max-height: 360px;
+    max-width: 260px;
+    max-height: 310px;
     transition: 0.5s;
 }
 
@@ -478,6 +478,23 @@ footer #promoteur{
     }
     #nos-raisons #rc .element{
         display: inline-block;
+    }
+
+    .nouvelles-item{
+        width: 250px;
+        height: 515px;
+        padding: 8px;
+    }
+    
+    .nouvelles-item > img{
+        max-width: 200px; 
+        max-height: 250px;
+    }
+    
+    .nouvelles-item > img:hover{
+        max-width: 200px;
+        max-height: 250px;
+        transition: 0.0s;
     }
 
     footer #promoteur{
