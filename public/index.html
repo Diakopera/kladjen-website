@@ -6,8 +6,13 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="img/favicon.ico">
-  <link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
 </head>
 <body>
   <!--Navigation bar.-->
@@ -27,7 +32,7 @@
   </header>
 
   <!-- landing page -->
-  <div id="landing-page"></div>
+  <div id="landing-page" class="wow pulse animated" data-wow-duration="2s"></div>
 
   <!-- Qui sommes-nous ? -->
   <div id="description">
@@ -36,7 +41,7 @@
     </div> <br>
     <div id="resume">
       <p id="insurtech">Nous sommes une <em>InsurTech</em>.</p>
-      <div id="sm-contract"></div>
+      <div id="sm-contract" class="wow pulse animated" data-wow-duration="2s"></div>
       <p>
         A travers l'application du <strong><em>Smart Contract</em></strong> de la technologie <strong><em>Blockchain</em></strong>, nous révolutionnons l'industrie des assurances en général et la
         gestion des remboursements en particulier au Burkina Faso.
@@ -68,31 +73,31 @@
     <div id="rc">
       <h1>Cas de la responsabilité civile</h1>
       <div class="flex-container">
-      <div class="element">
+      <div class="element wow pulse animated" data-wow-duration="2s">
         <div class="image"><img src="img/raisons/building.svg"></div>
         <div class="resume">
           Les compagnies d'assurance sont basées dans les grandes villes exclusivement
         </div>
       </div>
-      <div class="element">
+      <div class="element wow pulse animated" data-wow-duration="2s">
         <div class="image"><img src="img/raisons/refund-demand.svg"></div>
         <div class="resume">
           Pour être indemnisé, il faut préalablement formuler une demande de remboursement à l'adresse de l'assureur
         </div>
       </div>
-      <div class="element">
+      <div class="element wow pulse animated" data-wow-duration="2s">
         <div class="image"><img src="img/raisons/waiting.svg"></div>
         <div class="resume">
           Les remboursements sont effectifs après plusieurs jours ou semaines d'attente à la suite de la demande
         </div>
       </div>
-      <div class="element">
+      <div class="element wow pulse animated" data-wow-duration="2s">
         <div class="image"><img src="img/raisons/time-wasted.svg"></div>
         <div class="resume">
           Enorme perte de temps à travers les démarches qui exigent que l'on se déplace à l'agence pour les opérations
         </div>
       </div>
-      <div class="element">
+      <div class="element wow pulse animated" data-wow-duration="2s">
         <div class="image"><img src="img/raisons/cher.svg"></div>
         <div class="resume">
           Les primes sont onéreuses pour le Burkinabè moyen, au vu de son pouvoir d'achat
@@ -105,15 +110,15 @@
 
   <!-- Ce que vous gagnez avec Kladjen -->
   <div style="text-align: center; background-color: #fff;">
-    <div id="b-titre">
+    <div id="b-titre" class="wow pulse animated" data-wow-duration="2s">
       Avec Kladjen...
     </div>
   </div>
-  <div style="text-align: center; background-color: #fff;">
+  <div style="text-align: center; background-color: #fff;" class="wow fadeInDown animated" data-wow-duration="2s">
     <img src="img/down.svg" style="width: 300px; height: 300px;">
   </div>
   <div id="b-content">
-    <div id="schema"></div>
+    <div id="schema" class="wow pulse animated" data-wow-duration="2s"></div>
     <div id="b-description">
       <div class="item">
         <span class="number">1</span> Je remplis le formulaire de souscription en ligne
@@ -135,10 +140,10 @@
 
   <!-- Nos nouvelles -->
   <div id="nos-nouvelles">
-    <div id="nouvelles-titre">
+    <div id="nouvelles-titre" class="wow pulse animated" data-wow-duration="2s">
       Nos nouvelles
     </div>
-    <div class="flex-container">
+    <div class="flex-container wow pulse animated" data-wow-duration="2s">
       <div class="nouvelles-item">
         <div class="nouvelles-item-date">
           05 Mars 2019
